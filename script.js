@@ -36,6 +36,8 @@ function applyLanguage(lang){
   document.querySelectorAll(`[data-t-${attribute}]`).forEach(el=>{const value=t[el.getAttribute(`data-t-${attribute}`)];if(value!==undefined)el.setAttribute(attribute,value)});
  }
  document.querySelectorAll('[data-terms-lang]').forEach(list=>{list.hidden=list.dataset.termsLang!==language});
+ const translationNotice=document.querySelector('.translation-notice');
+ if(translationNotice)translationNotice.hidden=language==='nl';
  const termsSection=document.querySelector('.legal-content');
  if(termsSection)termsSection.setAttribute('aria-label',t.termsHeading);
  document.title=termsSection?`${t.termsHeading} | Quo Vadis`:t.homeTitle;
