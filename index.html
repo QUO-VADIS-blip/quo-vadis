@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Quo Vadis – professioneel en comfortabel personenvervoer vanuit Willebroek door België en Europa.">
+<meta name="description" data-t-content="homeDescription" content="Quo Vadis – professioneel en comfortabel personenvervoer vanuit Willebroek door België en Europa.">
 <title>Quo Vadis | Reizen in vertrouwen</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -10,8 +10,8 @@
 </head>
 <body>
 <header class="site-header">
-  <a class="brand" href="#home"><img src="quo-vadis-logo.png" alt="Quo Vadis"><span>REIZEN IN VERTROUWEN</span></a>
-  <button class="menu-toggle" aria-label="Menu openen">☰</button>
+  <a class="brand" href="#home"><img src="quo-vadis-logo.png" alt="Quo Vadis"><span data-t="tagline">REIZEN IN VERTROUWEN</span></a>
+  <button class="menu-toggle" data-t-aria-label="menuOpen" aria-label="Menu openen" aria-controls="mainNav" aria-expanded="false">☰</button>
   <nav class="nav" id="mainNav">
     <a class="active" href="#home" data-i="home">Home</a>
     <a href="#services" data-i="services">Onze diensten</a>
@@ -25,8 +25,9 @@
 <main id="home">
 <section class="hero">
   <div class="hero-bg"></div><div class="hero-shade"></div>
-  <div class="anniversary" aria-label="80 jaar Quo Vadis, 1947-2027">
-    <img src="anniversary-wreath.png" alt="80 jaar Quo Vadis - 1947 - 2027">
+  <div class="anniversary" data-t-aria-label="anniversaryLabel" aria-label="80 jaar Quo Vadis, 1947-2027">
+    <img src="anniversary-wreath.png" alt="" aria-hidden="true">
+    <span class="anniversary-word" data-t="years" aria-hidden="true">JAAR</span>
   </div>
   <div class="hero-copy">
     <h1 data-t="headline">Uw partner voor<br>comfortabel en veilig<br>personenvervoer</h1>
@@ -43,13 +44,13 @@
 </section>
 <section id="fleet" class="section fleet-section">
  <div class="section-title"><p>QUO VADIS</p><h2 data-t="fleetHeading">Onze vloot</h2></div>
- <div class="fleet-grid"><figure><img src="vloot-man.jpg" alt="Quo Vadis MAN autocar"><figcaption>MAN autocar</figcaption></figure><figure><img src="vloot-dubbeldekker.jpg" alt="Quo Vadis dubbeldekker"><figcaption>Dubbeldekker</figcaption></figure></div>
+ <div class="fleet-grid"><figure><img src="vloot-man.jpg" data-t-alt="fleetManAlt" alt="Quo Vadis MAN autocar"><figcaption data-t="fleetManCaption">MAN autocar</figcaption></figure><figure><img src="vloot-dubbeldekker.jpg" data-t-alt="fleetDoubleAlt" alt="Quo Vadis dubbeldekker"><figcaption data-t="fleetDoubleCaption">Dubbeldekker</figcaption></figure></div>
 </section>
 <section id="services" class="section light-blue"><div class="section-title"><p data-t="servicesKicker">ONZE DIENSTEN</p><h2 data-t="servicesHeading">Personenvervoer op maat</h2></div><div class="cards"><article><b>01</b><h3 data-t="s1">Daguitstappen</h3><p data-t="s1p">Comfortabel vervoer voor scholen, verenigingen, bedrijven en groepen.</p></article><article><b>02</b><h3 data-t="s2">Meerdaagse reizen</h3><p data-t="s2p">Autocartransport voor rondreizen en internationale groepen.</p></article><article><b>03</b><h3 data-t="s3">Touroperators</h3><p data-t="s3p">Professionele ondersteuning voor internationale reisorganisaties.</p></article><article><b>04</b><h3 data-t="s4">Bedrijven & delegaties</h3><p data-t="s4p">Vlot en verzorgd vervoer voor zakelijke verplaatsingen.</p></article></div></section>
 <section id="about" class="section about"><div><p class="section-kicker" data-t="aboutKicker">OVER ONS</p><h2 data-t="aboutHeading">Reizen in vertrouwen.</h2></div><div><p data-t="aboutText1">Quo Vadis is gevestigd in Willebroek en richt zich op professioneel personenvervoer en internationale groepsreizen.</p><p data-t="aboutText2">De centrale ligging langs de A12 tussen Brussel en Antwerpen maakt Willebroek een praktische uitvalsbasis voor reizen in België en Europa.</p></div></section>
-<section id="contact" class="section contact"><div class="contact-box"><div><p class="section-kicker">CONTACT</p><h2 data-t="contactHeading">Uw volgende reis begint hier.</h2><p data-t="contactText">Vertel ons over uw groep, route en reisdata.</p></div><div class="contact-details"><a href="mailto:info@quo-vadis.be">info@quo-vadis.be</a><strong class="main-phone-label">Onze hoofdtelefoon:</strong><a class="main-phone" href="tel:+3238868828">03/886.88.28</a><strong class="urgent-label">Bij dringende zaken:</strong><a class="urgent-phone" href="tel:+32475443277">0475/44.32.77</a><span>Hoeikensstraat 11 · 2830 Willebroek</span></div></div></section>
-<section id="location" class="section location"><div class="section-title"><p>LOCATIE</p><h2 data-t="locationHeading">Waar vindt u Quo Vadis?</h2></div><div class="map-wrap"><iframe title="Kaart Quo Vadis Willebroek" src="https://www.google.com/maps?q=Hoeikensstraat+11,+2830+Willebroek,+Belgium&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div><p class="map-address">Quo Vadis · Hoeikensstraat 11 · 2830 Willebroek · België</p></section>
+<section id="contact" class="section contact"><div class="contact-box"><div><p class="section-kicker">CONTACT</p><h2 data-t="contactHeading">Uw volgende reis begint hier.</h2><p data-t="contactText">Vertel ons over uw groep, route en reisdata.</p></div><div class="contact-details"><a href="mailto:info@quo-vadis.be">info@quo-vadis.be</a><strong class="main-phone-label" data-t="mainPhoneLabel">Onze hoofdtelefoon:</strong><a class="main-phone" href="tel:+3238868828">03/886.88.28</a><strong class="urgent-label" data-t="urgentPhoneLabel">Bij dringende zaken:</strong><a class="urgent-phone" href="tel:+32475443277">0475/44.32.77</a><span>Hoeikensstraat 11 · 2830 Willebroek</span></div></div></section>
+<section id="location" class="section location"><div class="section-title"><p data-t="locationKicker">LOCATIE</p><h2 data-t="locationHeading">Waar vindt u Quo Vadis?</h2></div><div class="map-wrap"><iframe title="Kaart Quo Vadis Willebroek" data-t-title="mapTitle" src="https://www.google.com/maps?q=Hoeikensstraat+11,+2830+Willebroek,+Belgium&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div><p class="map-address">Quo Vadis · Hoeikensstraat 11 · 2830 Willebroek · <span data-t="country">België</span></p></section>
 </main>
-<footer><img src="quo-vadis-logo.png" alt="Quo Vadis"><span>© 2026 Quo Vadis · Reizen in vertrouwen</span><a href="#home">↑</a></footer>
+<footer><img src="quo-vadis-logo.png" alt="Quo Vadis"><span data-t="footerText">© 2026 Quo Vadis · Reizen in vertrouwen</span><a href="#home" data-t-aria-label="backToTop" aria-label="Naar boven">↑</a></footer>
 <script src="script.js"></script>
 </body></html>

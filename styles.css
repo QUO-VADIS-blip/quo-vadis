@@ -15,3 +15,9 @@
 @media(max-width:620px){.main-phone{font-size:22px!important}}
 
 @media(max-width:620px){.site-header{gap:8px}.brand{min-width:0}.brand img{width:130px}.lang{padding:6px 7px}.legal-hero h1{font-size:28px}}
+
+.anniversary-word{display:none;position:absolute;z-index:1;left:50%;top:57%;transform:translate(-50%,-50%);font-size:clamp(30px,3.4vw,43px);line-height:1;font-weight:800;letter-spacing:1px;color:#f5cf72;text-shadow:0 1px 0 #a9711b,0 2px 1px #805117,0 4px 6px rgba(0,0,0,.45)}
+html:lang(fr) .anniversary img,html:lang(en) .anniversary img{mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M0 0H100V100H0Z M26 50H75V67H26Z' fill='white' fill-rule='evenodd'/%3E%3C/svg%3E");mask-size:100% 100%}
+html:lang(fr) .anniversary-word,html:lang(en) .anniversary-word{display:block}
+@media(max-width:900px){.anniversary-word{font-size:33px}}
+@media(max-width:620px){.hero{height:760px}.anniversary{top:480px}}
