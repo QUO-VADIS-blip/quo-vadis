@@ -5,7 +5,7 @@ Deze versie bevat:
 - 80 jaar-badge
 - prominente contactgegevens
 - dringend telefoonnummer: 0475/44.32.77
-- volledige algemene verkoopsvoorwaarden (16 punten)
+- aparte pagina met de volledige algemene verkoopsvoorwaarden (16 punten)
 - correcte interactieve kaart naar Hoeikensstraat 11, 2830 Willebroek
 - NL / FR / EN taalkeuze
 - fleetfoto's van de MAN en dubbeldekker
