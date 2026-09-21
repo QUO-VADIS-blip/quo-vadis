@@ -16,3 +16,6 @@ GitHub Pages: Settings > Pages > Deploy from a branch > main > /(root).
 
 
 Contact: hoofdnummer 03/886.88.28; dringende zaken 0475/44.32.77.
+
+
+Update: homepage hero uses a snowy scene with only the Quo Vadis bus; anniversary is 1947 - 2027.
