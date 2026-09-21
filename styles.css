@@ -24,3 +24,7 @@ html:lang(fr) .anniversary-word,html:lang(en) .anniversary-word{display:block}
 @media(max-width:620px){.brand img{width:180px}}
 @media(max-width:359px){.brand img{width:140px}}
 footer img{width:175px}
+
+/* Keep in-page navigation clear of the sticky header. */
+html{scroll-padding-top:132px}
+@media(max-width:900px){html{scroll-padding-top:100px}}
