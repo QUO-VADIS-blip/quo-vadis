@@ -28,3 +28,5 @@ footer img{width:175px}
 /* Keep in-page navigation clear of the sticky header. */
 html{scroll-padding-top:132px}
 @media(max-width:900px){html{scroll-padding-top:100px}}
+
+.section-title .fleet-intro{margin:16px 0 0;font-size:18px;line-height:1.6;font-weight:400;letter-spacing:normal;color:#455c73}
